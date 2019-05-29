@@ -1,0 +1,33 @@
+<html>
+<link href="/assets/style.css" rel="stylesheet" type="text/css">
+
+<head>
+    <title>LOCKER REGISTER</title>
+</head>
+
+<body>
+    <div>
+        <form action='/api/test' method="POST">
+            NAME:<br>
+            <input type='text' name='name' id='id' required><br>
+            Number of locker(s):
+            <%= Number %><br>
+            No.LOCKER:<br>
+            <input type="radio" name="locker" value="1"> 1
+            <input type="radio" name="locker" value="2"> 2
+            <input type="radio" name="locker" value="3"> 3
+            <input type="radio" name="locker" value="4"> 4<br>
+            Locker(s):
+            <%= locker1 %> -
+            <%= locker2 %> -
+            <%= locker3 %> -
+            <%= locker4 %> is(are) available <br>
+            CODE:<br>
+            <input type="text" name="code" id="code"><br>
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+</body>
+
+</html>

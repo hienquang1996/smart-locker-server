@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "create server for thesis",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "quang",
+  "license": "ISC",
+  "dependencies": {
+    "alert-node": "^1.2.3",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "calculatorjs": "^1.1.2",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "formidable": "^1.2.1",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.20",
+    "morgan": "^1.9.1",
+    "node-persist": "^3.0.4",
+    "nodemon": "^1.18.10",
+    "upper-case": "^1.1.3"
+  }
+}
